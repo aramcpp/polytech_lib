@@ -11,8 +11,8 @@
 
                 echo '<div class="book-info-block">
                     <img class="book-info-image" src="' . $book["image_path"] . '">
-                    <button class="down" type="button">DOWNLOAD</button>
                     <div class="book-info-text">
+                        <button class="download-btn" type="button" onClick="window.location.href=\'' . $book["url"] . '\'">DOWNLOAD</button>
                         <div class="book-text-block">
                             <div class="book-title-text big-title">
                                 ' . $book["title"] . '
