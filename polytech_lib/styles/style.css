@@ -1,0 +1,136 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.page-header {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(#351E0F , #592A1A);
+    margin: 0;
+    padding: 0;
+    left: 0;
+}
+
+.page-footer {
+    width: 100%;
+    height: 80px;
+    background-color: #222530;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    color: white;
+}
+
+.page-footer p {
+    margin-left: 5%;
+    font-size: 110%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.header-title {
+    color: white;
+    display: block;
+    font-size: 300%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.header-img {
+    display: block;
+    height: 80px;
+    width: auto;
+    float: left;
+    padding-right: 20px;
+    padding-left: 10px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.header-image-block {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    left: 0;
+}
+
+.book-image-block {
+    height: auto;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    left: 0;
+}
+
+.book-block {
+    width: 300px;
+    display: block;
+    padding: 50px;
+    float: left;
+}
+
+.book-shelf-block {
+    margin-top: 30px;
+    margin-bottom: -30px;
+    margin-left: 50px;
+    margin-right: -50px;
+    display: inline-block;
+}
+
+.book-text-block {
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.book-title-text {
+    color: #f2d13e;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.book-author-text {
+    margin-top: 2px;
+    color: #333745;
+    font-size: 110%;
+}
+
+.book-info-block {
+    margin: 50px;
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+.book-info-image {
+    display: block;
+    text-align: right;
+    height: 400px;
+    width: auto;
+    float: left;
+    padding-right: 20px;
+}
+
+.book-info-text {
+    display: block;
+    width: 80%;
+    font-size: 130%;
+}
+
+.big-title {
+    font-size: 170%!important;
+}
+
+.info-author {
+    color: grey!important;
+}
